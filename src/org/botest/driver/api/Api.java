@@ -12,8 +12,8 @@ import org.botest.driver.TargetSystem;
 
 public interface Api extends SessionApi, ManagementApi {
   
-  public TargetSystem connect(ExpectedTargetSystem expectedTargetSystem); 
-
-  public TargetSystem ping(ExpectedTargetSystem expectedTargetSystem); 
+  public TargetSystem ping(ExpectedTargetSystem expectedTargetSystem);
+  
+  public TargetSystem connect(ExpectedTargetSystem expectedTargetSystem);
   
 }
